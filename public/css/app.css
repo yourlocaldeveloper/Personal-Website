@@ -1,0 +1,21 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-item a {
+  color: black;
+}
+
+.navbar-item a:link {
+  color: grey;
+}
+
+.navbar-item a:hover {
+  color: black;
+}
+
+.zell-back {
+  height: 400px;
+  background-image: url(/images/zell.jpg?1ef5d27777fe1f96957fb40b5b68a43b);
+}
+

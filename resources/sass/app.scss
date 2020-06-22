@@ -1,1 +1,20 @@
-//
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-item a {
+    color: black;
+}
+
+.navbar-item a:link {
+    color: grey;
+}
+
+.navbar-item a:hover {
+  color: black;
+}
+
+.zell-back {
+    height: 400px;
+    background-image:  url("../../public/img/zell.jpg");
+}
