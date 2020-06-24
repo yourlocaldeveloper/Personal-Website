@@ -145,6 +145,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
@@ -169,7 +170,9 @@
       <option name="presentableId" value="Default" />
       <updated>1592748369230</updated>
       <workItem from="1592748373632" duration="8132000" />
-      <workItem from="1592818072416" duration="111000" />
+      <workItem from="1592818072416" duration="11963000" />
+      <workItem from="1592858647151" duration="1297000" />
+      <workItem from="1593014010739" duration="1049000" />
     </task>
     <servers />
   </component>
@@ -197,9 +200,13 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="185" key="SettingsEditor/0.0.1920.1080/-1600.0.1600.860@0.0.1920.1080" timestamp="1592774950910" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1592775507534">
+    <state x="616" y="250" key="run.anything.popup" timestamp="1592827915989">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1600.0.1600.860@0.0.1920.1080" timestamp="1592775507534" />
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080/-1600.0.1600.860@0.0.1920.1080" timestamp="1592827915989" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1592827908403">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1600.0.1600.860@0.0.1920.1080" timestamp="1592827908403" />
   </component>
 </project>

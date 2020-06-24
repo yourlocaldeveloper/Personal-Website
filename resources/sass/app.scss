@@ -2,6 +2,24 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+nav {
+    border-bottom-style: solid;
+    border-color: black;
+}
+
+strong {
+    font-weight: 700;
+    color: white;
+}
+
+.navbar {
+    background-color: #edf2f7;
+}
+
+.navbar-menu {
+    background-color: #edf2f7;
+}
+
 .navbar-item a {
     color: black;
 }
@@ -11,10 +29,90 @@ body {
 }
 
 .navbar-item a:hover {
-  color: black;
+    color: black;
 }
 
 .zell-back {
-    height: 400px;
+    height: 500px;
     background-image:  url("../../public/img/zell.jpg");
+}
+
+.round-img {
+    border-radius: 50%;
+    z-index:100;
+    position: relative;
+}
+
+.home-quote {
+    color: white;
+    margin-top: -60px;
+    padding: 25px;
+    padding-top: 80px;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.section-title {
+    background-color: #edf2f7;
+    color: black;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.about-content {
+    color: black;
+    background-color: #f7fafc;
+}
+
+.about-body {
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.line-one {
+    width: 260px;
+    border-bottom: 1px solid black;
+    position: absolute;
+}
+
+.line-two {
+    width: 165px;
+    border-bottom: 1px solid black;
+    position: absolute;
+}
+
+.section-link {
+    padding-bottom: 25px;
+    text-align: right;
+}
+
+.skills-content {
+    background-color: #566677;
+}
+
+.skills-content img {
+    height: 100px;
+}
+
+.carousel {
+    height: 300px;
+}
+
+.item {
+    color: white;
+    margin: 10px;
+    height: 250px;
+}
+
+.item-text {
+    width: 200px;
 }
