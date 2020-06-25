@@ -14,6 +14,10 @@ strong {
 
 .navbar {
     background-color: #edf2f7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
 }
 
 .navbar-menu {
@@ -38,8 +42,9 @@ strong {
 }
 
 .round-img {
+    margin-top: 50px;
     border-radius: 50%;
-    z-index:100;
+    z-index:1;
     position: relative;
 }
 
@@ -115,4 +120,46 @@ h2 {
 
 .item-text {
     width: 200px;
+}
+
+.slider-navigation-next, .slider-navigation-previous {
+    visibility: hidden;
+}
+
+.footer-content {
+    background-color: #566677;
+}
+
+.footer-title {
+    color: white;
+}
+
+.footer-form {
+    color: white;
+    width: 50%;
+}
+
+.label {
+    color:white;
+    font-weight: 500;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-bottom a {
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+}
+
+.footer-bottom a:hover {
+    color: white;
+}
+
+.footer-msg {
+    color: white;
+    font-size: 10px;
+    padding-bottom: 20px;
 }

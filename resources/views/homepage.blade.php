@@ -42,7 +42,7 @@
                     am See in Austria for most of my trip to work as a Full Time Ski Instructor.
                 </div>
             </div>
-             <a class="section-link" href="/about">LearnMore About Me Here</a>
+            <div class="is-right"><a class="section-link" href="/about">LearnMore About Me Here</a></div>
         </div>
     </section>
     <section class="hero section-title has-text-centered">

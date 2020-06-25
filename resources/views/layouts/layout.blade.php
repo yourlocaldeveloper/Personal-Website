@@ -85,7 +85,72 @@
     @yield('content')
     @yield('scripts')
     <footer>
-
+        <section class="footer-content">
+            <hr>
+            <div class="container footer-title has-text-centered">
+                <h1>CONTACT ME</h1>
+                <p>Reach out via this form or social links below.</p>
+            </div>
+            <div class="container footer-form">
+                <div class="field">
+                    <label class="label">Name</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="Name input">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input" type="text" placeholder="Email input">
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Subject</label>
+                    <div class="control">
+                        <div class="select">
+                            <select>
+                                <option>Employment</option>
+                                <option>CV Request</option>
+                                <option>Freelance</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Message</label>
+                    <div class="control">
+                        <textarea class="textarea" placeholder="Textarea"></textarea>
+                    </div>
+                </div>
+                <div class="field is-grouped">
+                    <div class="control">
+                        <button class="button is-link">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-bottom has-text-centered">
+                <div>
+                    <a href="https://github.com/HeyAero">
+                        <i class="fab fa-github fa-3x" aria-hidden="true"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-envelope-open-text fa-3x" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/aaron-yates-27007316b/">
+                        <i class="fab fa-linkedin fa-3x" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <br>
+                <div class="footer-msg">
+                    COPYRIGHT © 2020 AARON YATES — ALL RIGHTS RESERVED
+                </div>
+            </div>
+        </section>
     </footer>
     </body>
 </html>
